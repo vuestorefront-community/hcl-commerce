@@ -1,7 +1,7 @@
 module.exports = {
   integrations: {
-    <% INTEGRATION %>: {
-      location: '@vue-storefront/<% INTEGRATION %>-api/server',
+    hcl-commerce: {
+      location: '@vue-storefront/hcl-commerce-api/server',
       configuration: {}
     }
   }
